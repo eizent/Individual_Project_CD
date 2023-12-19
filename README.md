@@ -7,7 +7,8 @@ However, the articles published in the 2023 journal were available online, and t
 # Intended use
 This repository, dataset, and any subsequent analysis may be of interest to those in the field of anthropology who are interested in seeing the development of the field-- especially in regards to language used.
 
-
+# txt Files
+Each txt file contains the article title on one line and the text sample on the other. They are named according to Volume (vol1 refers to Volume 1 from 1972 and vol52 refers to the Volume 52 from 2023) and the article location. For example, text file vol1.15 would refer to the 15th published article in Volume 1 of the Annual Review of Anthropology. 
 # CSV Metadata and Information
 The csv file contains the following data:
 | Variable Name | Description |
