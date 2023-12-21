@@ -26,3 +26,5 @@ The anthroreviews_with_spaCy_tags.csv file contains the following data:
 | Named_Entity | List of types of named entities in each text |
 | NE_Words | List of the named entities found |
 
+The anthro_reviews_csv.csv file is the original file that I had used to collect my data and was used as a basis of the spaCy csv. This file contains title, author, year, text_sample, and text_filename. 
+
