@@ -10,7 +10,7 @@ This repository, dataset, and any subsequent analysis may be of interest to thos
 # txt Files
 Each txt file contains the article title on one line and the text sample on the other. They are named according to Volume (vol1 refers to Volume 1 from 1972 and vol52 refers to the Volume 52 from 2023) and the article location. For example, text file vol1.15 would refer to the 15th published article in Volume 1 of the Annual Review of Anthropology. 
 # CSV Metadata and Information
-The csv file contains the following data:
+The anthroreviews_with_spaCy_tags.csv file contains the following data:
 | Variable Name | Description |
 | --- | --- |
 | title | Title of the review as displayed on the journal |
@@ -18,4 +18,11 @@ The csv file contains the following data:
 | year | the year the volume was published |
 | text_sample | The textual data scraped by me-- either the first two paragraphs of the introduction or a copy of the text scanned from the preview page |
 | text_filename | The text file that contains the text sample from the indivual review |
+| Doc | The text of each review, but as doc object |
+| Tokens | Tokens found using the spaCy analysis in each text sample |
+| Lemmas | Lemmas or keywords as defined by the spaCy code |
+| POS | List of the parts of speech found in each text|
+| Proper_Noun | List of proper nouns found by spaCy in each text |
+| Named_Entity | List of types of named entities in each text |
+| NE_Words | List of the named entities found |
 
