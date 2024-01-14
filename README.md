@@ -18,9 +18,8 @@ The anthroreviews_with_spaCy_tags.csv file contains the following data:
 | title | Title of the review as displayed on the journal |
 | author | authors names |
 | year | the year the volume was published |
-| text_sample | The textual data scraped by me-- either the first two paragraphs of the introduction or a copy of the text scanned from the preview page |
-| text_filename | The text file that contains the text sample from the indivual review |
-| Doc | The text of each review, but as doc object |
+| text_filename | The name of text file that contains the text sample from the indivual review |
+| Text | The text sample that was scraped |
 | Tokens | Tokens found using the spaCy analysis in each text sample |
 | Lemmas | Lemmas or keywords as defined by the spaCy code |
 | POS | List of the parts of speech found in each text|
@@ -28,5 +27,5 @@ The anthroreviews_with_spaCy_tags.csv file contains the following data:
 | Named_Entity | List of types of named entities in each text |
 | NE_Words | List of the named entities found |
 
-The anthro_reviews_csv.csv file is the original file that I had used to collect my data and was used as a basis of the spaCy csv. This file contains title, author, year, text_sample, and text_filename. 
+The anthro_reviews_csv.csv file is the original file that I had used to collect my data and was used as a basis of the spaCy csv. This file contains title, author, year, and text_filename. 
 
