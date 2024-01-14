@@ -29,7 +29,7 @@ The anthroreviews_with_spaCy_tags.csv file contains the following data:
 
 The anthro_reviews_csv.csv file is the original file that I had used to collect my data and was used as a basis of the spaCy csv. This file contains title, author, year, and text_filename. 
 
-Image created within the jupyter notebook:
+# Graph created in the jupyter notebook at the end:
 ![newplot](https://github.com/eizent/Assignment4/assets/150909783/f790bb0d-a73a-44e7-aca6-ef88c27d0d50)
 
 
